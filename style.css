@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body{
@@ -54,6 +54,26 @@ li{
     background-image: linear-gradient(to bottom, rgba(172, 134, 90, 0.4), rgba(57, 55, 54, 0.7)),url('img/bg-imagem.jpg');
     width: 100%;
     height: 450px;
+}
+
+
+span{
+    color: #ac865a;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.titulo{
+    font-size: 90px;
+    padding-top: 90px;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 50px;
+    color: #ac865a;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px){
