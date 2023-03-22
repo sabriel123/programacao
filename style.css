@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 html,body{
@@ -25,7 +25,7 @@ header{
     border-bottom: solid #ac865a;
 }
 
-header a img{
+header > a > img{
     height: 150px;
 }
 
@@ -47,35 +47,6 @@ li{
     padding-left: 10px;
 }
 
-.bg{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, rgba(172, 134, 90, 0.4), rgba(57, 55, 54, 0.7)),url('img/bg-imagem.jpg');
-    width: 100%;
-    height: 450px;
-}
-
-
-span{
-    color: #ac865a;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.titulo{
-    font-size: 90px;
-    padding-top: 90px;
-    color: white;
-    text-align: center;
-}
-
-.subtitulo{
-    font-size: 50px;
-    color: #ac865a;
-    text-align: center;
-}
-
 @media screen and (max-width: 768px){
     header{
         flex-direction: column;
@@ -85,20 +56,4 @@ span{
         margin-bottom: 50px;
     }
 
-    .texto, .titulo, .subtitulo{
-        font-size: 55px;
-    }
-
-    .titulo{
-        padding-top: 0px;
-    }
-
-
-}
-
-@media screen and (max-width: 964px){
-    .titulo{
-        font-size: 65px;
-        padding-top: 130px;
-    }
 }
