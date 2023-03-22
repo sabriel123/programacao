@@ -85,4 +85,20 @@ span{
         margin-bottom: 50px;
     }
 
+    .texto, .titulo, .subtitulo{
+        font-size: 55px;
+    }
+
+    .titulo{
+        padding-top: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 964px){
+    .titulo{
+        font-size: 65px;
+        padding-top: 130px;
+    }
 }
