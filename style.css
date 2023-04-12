@@ -70,6 +70,10 @@ li{
     margin-top: 80px;
 }
 
+.box a{
+    color: white;
+}
+
 span{
     color: #ac865a;
     font-weight: bold;
